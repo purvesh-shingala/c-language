@@ -4,14 +4,17 @@
 main()
 
 {
-int r,area;
-const pi=3.14;
+int l,b,area;
 clrscr();
-printf("R = ");
-scanf("%d",&r);
- area=pi*r*r;
-printf("AREA of circle is =  %d",area);
+printf("L=");
+scanf("%d",&l);
+
+printf("B=");
+scanf("%d",&b);
+area=l*b;
+
+printf("AREA= %d",area);
 getch();
+
+
 }
-
-
